@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#news{
+    width: 100%;
+    height: 700px;
+    margin-top: 160px;
+    position: relative;
+}
+#news .container{
+    height: 600px;
+}
+#news .top h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+#news .top h2::after{
+    height: 1.5px;
+    width: 3%;
+    background: #c7000b;
+    left: 48.5%;
+    content: '';
+    position: absolute;
+    top: 60px;
+}
+#news .box{
+    margin: 80px 0px;
+    width: 400px;
+    float: left;
+}
+#news img{
+    width: 380px;
+    margin: 0 auto;
+    transition: all .3s;
+}
+#news img:hover{
+    transform: translateY(-20px);
+}
+#news .left{
+    margin-left: 35px;
+}
+#news .right{
+    background: #f8f8f8;
+    width: 380px;
+
+}
+#news .right .about{
+    margin: 30px 20px  0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+}
+#news .right .time{
+    margin: 0px 20px 20px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#news .right .about:first-child li{
+    margin-top: 40px;
+}
+#news .right li:last-child{
+    margin-bottom: 35px;
+}
+#news .right .text-box{
+    color: #333333;
+}
+#news .right .text-box:hover{
+    color: #c7000b;
+}
+#news .last{
+    margin: 10px auto;
+    clear: both;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    left: 39.5%;
+}
+#news .last li{
+    border: 1px solid #333333;
+    margin: 2px 15px;
+    width: 130px;
+    padding: 6px;
+    font-size: 13.5px;
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+    background: white;
+    transition: all .1s;
+}
+#news .last li:hover{
+    color:white;
+    background: #c7000b;
+}
+

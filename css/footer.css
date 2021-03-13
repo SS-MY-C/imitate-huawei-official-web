@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 510px;
+    background-color: #f2f2f2;
+}
+footer .top{
+    height: 66px;
+
+}
+footer .top ul{
+    border-bottom: solid 1px #e2e2e2;
+    height: 66px;
+    width: 1100px;
+    margin: 15px auto;
+}
+footer .top li{
+    float: left;
+    color: #595757;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 50px;
+    padding-left: 0px;
+}
+footer .top li img{
+    width: 24px;
+}
+footer .top li:last-child{
+    float: right;
+    padding:20px 50px;
+    padding-right: 0px;
+}
+footer .mid{
+    width: 1100px;
+    height: 280px;
+    margin: 40px auto 10px;
+}
+footer .mid ul li ol{
+    float: left;
+    margin-right: 115px;
+}
+footer .mid ul li ol li{
+    line-height: 40px;
+    font-size: 10px;
+    color: #595757;
+}
+footer .mid ul li ol li:first-child a{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+footer .mid ul li:nth-child(2) ol{
+    margin-top: 39px;
+}
+footer div .last{
+    height: 100px;
+    width: 1100px;
+    margin: 10px auto;
+}
+footer div .last .top{
+    display: inline-block;
+}
+footer div .last .top li{
+    padding-right: 20px;   
+}
+footer div .last .top li:last-child{
+    padding-left: 0px;
+}
+footer div .last ul:first-child{
+    width: 1100px;
+    border-top: 1px solid #e2e2e2;
+}
+footer div .last ul:first-child li{
+    padding-top: 40px;
+    float: left;
+    margin-right: 10px;
+    font-size: 10px;
+    color: #595757;
+}
+footer .last .last-mid li{
+    float: left;
+}
+footer .last .last-mid{
+    float: right;
+    margin-top: -50px;
+}
+footer .last .last-mid img{
+    width: 30px;
+    visibility: visible;
+    margin-left: 20px;
+}
+footer .last{
+    padding-bottom: 10px;
+}
+#copy{
+    height: 30px;
+    background-color: #e6e6e6;
+    margin-top: -30px;
+}
+#copy ul{
+    width: 1100px;
+    margin: 0px auto;
+    text-align: center;
+}
+#copy li{
+    line-height: 5px;
+    float: left;
+    margin-right: 30px;
+    font-size: 8px;
+    color: #595757;
+}
+#copy li:first-child{
+    padding-left: 150px;
+}
+#copy ul .gan{
+    width: 0.1px;
+    height: 10px;
+    margin-top: 0px;
+    background-color: #595757;
+}
+
+
+
+

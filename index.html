@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/daohang.css">
+    <link rel="stylesheet" href="css/recom.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <style type="text/css">
+        body {
+            background: #fff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        #banner{
+            height:630px; 
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 632.5px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_left">
+                <div class="xlwb"></div>
+                <div class="tel">4008-128-128</div>
+            </div>
+            <ul class="right">
+                <li><a href="#" ><img src="img/jituan.png">集团网站<img src="img/xiangxia.png" alt="photo"></a></li>
+                <li><a href="#"><img src="img/diqu.png">区域/语言</a></li>
+                <li class="load"><a href="#"><img src="img/dengl.png">登录</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav id="nav">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="photo" class="huawei_logo">
+            </div>
+            <ul class="nav nav-pills right">
+                <li><a href="#">个人及家庭产品</a></li>
+                <li><a href="#">商用产品及方案</a></li>
+                <li><a href="#">服务支持</a></li>
+                <li><a href="#">合作伙伴与开发者</a></li>
+                <li><a href="#" class="aboutHW">关于华为</a></li>
+                <li role="presentation" class="dropdown">
+                    <img src="img/goumai.png" class="zaixianshop" style="width: 25px;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">在线购买<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">华为商城</a>
+                        </li>
+                        <li>
+                            <a href="#">华为云</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="img/sousuo.png" style="width: 25px;" alt="photo" class="nav_search"></a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div id="banner">
+        <div class="swiper-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/banner1.jpg" width="100%;" height="630"></div>
+                    <div class="swiper-slide"><img src="img/banner2.jpg" width="100%;" height="630"></div>
+                    <div class="swiper-slide"><img src="img/banner3.jpg" width="100%;" height="630"></div>        
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="banner-nav-bg"></div>
+        </div>
+    </div>
+    <div id="recom">
+        <div class="container">
+            <div class="title_box">
+                <h2>推荐信息</h2>
+            </div>
+            <div class="img_list">
+                <div class="img_box mate40 animate__animated animate__slideInRight">
+                    <a href="#">
+                        <img class="img_h" src="img/mate40-pro-p.jpg" alt="photo">
+                        <div class="mask matemask"></div>
+                        <div class="text-one">
+                            <div class="text-box chanp">产品</div>
+                            <div class="text-box mate40jieshao">HUAWEI Mate 40 Pro</div>
+                            <div class="text-box mate40about" >了解更多</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="img_box Free  animate__animated animate__slideInRight">
+                    <a href="#">
+                        <img class="img_h" src="img/FreeBuds-Pro-p.jpg" alt="photo">
+                        <div class="mask frmask"></div>
+                        <div class="text-two">
+                            <div class="text-box chanptwo">产品</div>
+                            <div class="text-box free">HUAWEI FreeBuds Pro p 无线耳机</div>
+                            <div class="text-box freeabout" >了解更多</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="img_box nova8  animate__animated animate__slideInRight">
+                    <a href="#">
+                        <img class="img_h" src="img/huawei-nova8-pro-p.jpg" alt="photo">
+                        <div class="mask novamask"></div>
+                        <div class="text-three">
+                            <div class="text-box chanpthree">产品</div>
+                            <div class="text-box nova_8">HUAWEI nova 8 Pro</div>
+                            <div class="text-box novaabout" >了解更多</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="img_box spro  animate__animated animate__slideInRight">
+                    <a href="#">
+                        <img class="img_h img_spro" src="img/spro-p.jpg" alt="photo">
+                        <div class="mask spromask"></div>
+                        <div class="text-four">
+                            <div class="text-box chanpfour">产品</div>
+                            <div class="text-box spros">华为智慧屏 S Pro</div>
+                            <div class="text-box sproabout" >了解更多</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="forwram">
+        <div class="teshu"><img class="tupian fade" src="img/t4a-parents3.jpg" alt="photo"></div>
+    </div>
+    <div id="news">
+        <div class="container">
+            <div class="top news_top fade"><h2>新闻与活动</h2></div>
+            <div class="box left news_left fade"><img src="img/news.png" alt="photo"></div>
+            <div class="box mid news_mid fade"><img src="img/news2.png" alt="photo"></div>
+            <div class="box right news_right fade"><ul>
+                <div class="text-box fir"><li class="about">华为超高密模块化UPS全系新品全球发布</li>
+                <li class="time">2021年01月28日</li></div>
+                <div class="text-box sec"><li class="about">华为连续第七年发布全球联接指数报告（GCI），首次提出行业数字化转型的五大阶段</li>
+                <li class="time">2021年01月26日</li></div>
+                <div class="text-box thi"><li class="about">巨变中的脱变：华为发布模块电源新趋势，开放合作助力产业升级</li>
+                <li class="time">2021年01月22日</li></div>
+                <div class="text-box fou"><li class="about">“华为苏州博士后创新实践基地”授牌成立</li>
+                <li class="time">2021年01月20日</li></div>
+                <div class="text-box fir"><li class="about">复旦-华为战略协同研讨会在复旦大学召开</li>
+                <li class="time">2021年01月19日</li></div>
+            </ul></div>
+        </div>
+        <div class="last"><div><ul>
+            <li class="box_left">更多活动</li>
+            <li class="box_right">更多新闻</li>
+        </ul></div></div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="top">
+                <ul>
+                    <li>
+                        首页
+                    </li>
+                    <li>
+                        <img src="img/搜索.png" alt="photo">
+                    </li>
+                </ul>
+            </div>
+            <div class="mid">
+                <ul>
+                    <li>
+                        <ol>
+                            <li><a href="#">关于华为</a></li>
+                            <li><a href="#">公司简介</a></li>
+                            <li><a href="#">公司年报</a></li>
+                            <li><a href="#">公司治理</a></li>
+                            <li><a href="#">管理层信息</a></li>
+                            <li><a href="#">招贤纳士</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li></li>
+                            <li><a href="#">可持续发展</a></li>
+                            <li><a href="#">信任中心</a></li>
+                            <li><a href="#">合规与诚信</a></li>
+                            <li><a href="#">公共政策</a></li>
+                            <li><a href="#">债券投资者</a></li>
+                            <li><a href="#">供应商</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="#">新闻与活动</a></li>
+                            <li><a href="#">新闻</a></li>
+                            <li><a href="#">展会活动</a></li>
+                            <li><a href="#">华为直播</a></li>
+                            <li><a href="#">媒体图库</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="#">发现</a></li>
+                            <li><a href="#">成功故事</a></li>
+                            <li><a href="#">行业洞察</a></li>
+                            <li><a href="#">出版物</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="#">我们的产品</a></li>
+                            <li><a href="#">个人及家庭产品</a></li>
+                            <li><a href="#">企业业务产品</a></li>
+                            <li><a href="#">运营商网络产品</a></li>
+                            <li><a href="#">华为云服务</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="#">技术支持</a></li>
+                            <li><a href="#">消费者技术支持</a></li>
+                            <li><a href="#">华为云技术支持</a></li>
+                            <li><a href="#">企业技术支持</a></li>
+                            <li><a href="#">运营商技术支持</a></li>
+                            <li><a href="#">产品安全通告</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            <div class="last">
+                <ul class="top">
+                    <li>华为商城</li>
+                    <li>华为云</li>
+                    <li>华为智能光伏</li>
+                    <li>产品定义社区</li>
+                    <li>华为心声社区</li>
+                </ul>
+                <ul class="last-mid">
+                    <li><span><img src="img/xinlang.png" alt=""></span></li>
+                    <li><span><img src="img/in.png" alt=""></span></li>
+                    <li><span><img src="img/weixin.png" alt=""></span></li>
+                    <li><span><img src="img/toutiao.png" alt=""></span></li>
+                    <li><span><img src="img/zhihu.png" alt=""></span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div id="totop"><a href="javascript:;" id="bottom-totop" class="fade"><img src="img/totop.png" alt="photo"></div></a>
+    <div id="copy">
+        <ul>
+            <li>©2021 华为技术有限公司</li>
+            <li>粤A2-20044005号 粤公网安备  44030702002388号</li>
+            <li class="gan"></li>
+            <li>联系我们</li>
+            <li>法律声明</li>
+            <li>隐私保护</li>
+            <li>除名查询</li>
+        </ul>
+    </div>
+    <script src="js/swiper.js"></script>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="js/jq.js"></script>
+    <script>        
+            var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            loop: true,
+            autoplay: 3000,
+
+        
+            speed: 1000,
+            prevButton: '.swiper-button-prev',
+            nextButton: '.swiper-button-next',
+            effect: 'coverflow',//  effect: 'flip',effect: 'coverflow',slide', 'fade',cube
+            grabCursor: true,
+            cube: {
+                shadow: false,
+                slideShadows: false,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+        });
+    </script>
+</body>
+</html>

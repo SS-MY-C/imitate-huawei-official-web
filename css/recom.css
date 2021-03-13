@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#recom{
+    height: 800px;
+}
+#recom .container{
+    position: relative;
+}
+#recom .title_box {
+    text-align: center;
+
+}
+#recom .title_box h2{
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 90px;
+}
+#recom .title_box h2:after{
+    background: #c7000b;
+    content: '';
+    width: 3%;
+    height: 1.5px;
+    position: absolute;
+    left: 48.5%;
+    bottom: 0;
+    margin-bottom: 880px;
+}
+#recom .img_list{
+    margin-top: 50px;
+}
+#recom .img_h{
+    height: 400px;
+}
+#recom .mate40{
+    float: left;
+}
+#recom .Free{
+    float: right;
+}
+#recom .nova8{
+    float: left;
+}
+
+#recom .img_box{
+    margin-bottom: 20px;
+}
+#recom .img_box .mask{
+    visibility:visible;
+    opacity:1;
+    height: 20%;
+    width: 827.8px;
+    content: "";
+    background: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 70%);
+    bottom: 0;
+    position: absolute;
+}
+#recom .img_box .matemask{
+    top: 320px;
+}
+#recom .img_box .frmask{
+
+    width: 400px;
+}
+#recom .img_box .novamask{
+    width: 400px;
+}
+#recom .img_box .spromask{
+
+    height: 40%;
+    width: 827.8px;
+}
+
+#recom .img_list .text-one{
+    transition: all .3s;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 310px;
+    left: 50px;
+}
+#recom .img_list .text-one:hover{
+    transform:translateY(-15px);
+}
+#recom .img_list .text-two{
+    transition: all .3s;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 310px;
+    left: 50px;
+    display: inline-block;
+    margin: 0px;
+}
+#recom .img_list .text-two:hover{
+    transform:translateY(-15px);
+}
+#recom .img_list .text-three{
+    transition: all .3s;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 310px;
+    left: 50px;
+    display: inline-block;
+    margin: 0px;
+}
+#recom .img_list .text-three:hover{
+    transform:translateY(-15px);
+}
+#recom .img_list .text-four{
+    transition: all .3s;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 310px;
+    left: 40px;
+    display: inline-block;
+    margin: 0px;
+}
+#recom .img_list .text-four:hover{
+    transform:translateY(-15px);
+}
+#recom .img_list .chanp{
+    font-size: 1.2em;
+    color: white;
+
+}
+#recom .img_list .mate40jieshao{
+
+    font-size: 1.4em;
+    font-style:inherit;
+    color: white;
+    font-weight: bold;
+
+}
+#recom .img_list .mate40about{
+
+    font-size: 1em;
+    font-style:inherit;
+    color: white;
+
+}
+#recom .img_list .chanptwo{
+
+    font-size: 1.2em;
+    color: white;
+}
+#recom .img_list .free{
+
+    font-size: 1.4em;
+    font-style:inherit;
+    color: white;
+    font-weight: bold;
+}
+#recom .img_list .freeabout{
+
+    font-size: 1em;
+    font-style:inherit;
+    color: white;
+}
+#recom .img_list .chanpthree{
+
+    font-size: 1.2em;
+    color: white;
+}
+#recom .img_list .nova_8{
+
+    font-size: 1.4em;
+    font-style:inherit;
+    color: white;
+    font-weight: bold;
+}
+#recom .img_list .novaabout{
+
+    font-size: 1em;
+    font-style:inherit;
+    color: white;
+}
+#recom .img_list .chanpfour{
+
+    font-size: 1.2em;
+    color: white;
+}#recom .img_list .spros{
+
+    font-size: 1.4em;
+    font-style:inherit;
+    color: white;
+    font-weight: bold;
+}
+#recom .img_list .sproabout{
+
+    font-size: 1em;
+    font-style:inherit;
+    color: white;
+}
+#recom .img_list .spro{
+    position: relative;
+    float: right;
+}
+

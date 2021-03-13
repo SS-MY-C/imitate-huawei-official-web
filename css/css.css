@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.fade{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+.nav-show{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+#top,header,nav,#banner,#rec,#news,#serve,#after_sale,footer{
+
+    height: 100px;
+    width: 100%;
+}
+.container{
+
+    margin: 0px auto;
+    width: 1280px;
+}
+#top{
+    height: 5px;
+    background-color: seashell;
+}
+header{
+    height: 25px;
+    background:#2c2c2c;
+}
+header .xlwb{
+    width: 16px;
+    height: 16px;
+    background: url('../img/weibo.png') no-repeat;
+}
+header .tel{
+    color: teal;
+    font-size: 12px;
+}
+header .header_left div{
+    float: left;
+    margin: 4px 10px 0;
+}
+header ul li{
+    float: left;
+    line-height: 25px;
+}
+header li a{
+    color: #b2b2b2;
+    font-size: 12px;
+    padding:0px 20px;
+    border-right: 1px solid #b2b2b2;
+}
+header .load a{
+    border-right: none;
+}
+header ul img{
+    vertical-align: middle;
+    padding: 0px 2px;
+}
+#forwram{
+    height: 750px;
+}
+#forwram .teshu{
+    padding-top:80px ;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 0px auto;
+    left: 0;
+}
+#forwram img{
+    width: 1515px;
+    left: -200px;
+}
+#totop{
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    line-height: 150px;
+}
